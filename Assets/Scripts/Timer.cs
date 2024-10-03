@@ -19,14 +19,15 @@ public class Timer : MonoBehaviour
         return currentTime;
     }
 
-    public void StartTimer();
+    public void StartTimer()
     {
-    isTiming = true;
+        isTiming = true;
     }
 
-public void StopTimer();
-{
-    isTiming = false;
+    public void StopTimer()
+    {
+        isTiming = false;
+    }
 }
-    
-}
+
+
